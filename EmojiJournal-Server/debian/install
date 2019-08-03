@@ -1,0 +1,3 @@
+.build/							usr/src/EmojiJournal-Server
+terraform/scripts/install.sh	usr/src/EmojiJournal-Server
+terraform/scripts/start.sh		usr/src/EmojiJournal-Server

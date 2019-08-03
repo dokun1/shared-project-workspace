@@ -1,0 +1,4 @@
+module agentcore {
+    umbrella "/Users/davidokunibm/Kitura/WorkspaceTesting/EmojiJournal/EmojiJournal-Server/.build/checkouts/omr-agentcore/src/agentcore/include"
+    export *
+}
