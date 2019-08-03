@@ -15,6 +15,7 @@
 		5393031722F5DD2800CC9C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5393031522F5DD2800CC9C39 /* LaunchScreen.storyboard */; };
 		5393032222F5DD2800CC9C39 /* EmojiJournal_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5393032122F5DD2800CC9C39 /* EmojiJournal_iOSTests.swift */; };
 		5393044122F5DE8700CC9C39 /* EmojiJournalCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5393044022F5DE8700CC9C39 /* EmojiJournalCore */; };
+		5393044722F5E94700CC9C39 /* KituraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5393044622F5E94700CC9C39 /* KituraKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5393044122F5DE8700CC9C39 /* EmojiJournalCore in Frameworks */,
+				5393044722F5E94700CC9C39 /* KituraKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +129,7 @@
 			name = "EmojiJournal-iOS";
 			packageProductDependencies = (
 				5393044022F5DE8700CC9C39 /* EmojiJournalCore */,
+				5393044622F5E94700CC9C39 /* KituraKit */,
 			);
 			productName = "EmojiJournal-iOS";
 			productReference = 5393030722F5DD2700CC9C39 /* EmojiJournal-iOS.app */;
@@ -180,6 +183,7 @@
 			mainGroup = 539302FE22F5DD2700CC9C39;
 			packageReferences = (
 				5393043F22F5DE8700CC9C39 /* XCRemoteSwiftPackageReference "EmojiJournalCore" */,
+				5393044522F5E94700CC9C39 /* XCRemoteSwiftPackageReference "KituraKit" */,
 			);
 			productRefGroup = 5393030822F5DD2700CC9C39 /* Products */;
 			projectDirPath = "";
@@ -489,6 +493,14 @@
 				kind = branch;
 			};
 		};
+		5393044522F5E94700CC9C39 /* XCRemoteSwiftPackageReference "KituraKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/KituraKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.23;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -496,6 +508,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5393043F22F5DE8700CC9C39 /* XCRemoteSwiftPackageReference "EmojiJournalCore" */;
 			productName = EmojiJournalCore;
+		};
+		5393044622F5E94700CC9C39 /* KituraKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5393044522F5E94700CC9C39 /* XCRemoteSwiftPackageReference "KituraKit" */;
+			productName = KituraKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

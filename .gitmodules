@@ -1,0 +1,3 @@
+[submodule "EmojiJournalCore"]
+	path = EmojiJournalCore
+	url = https://github.com/dokun1/EmojiJournalCore
